@@ -1,0 +1,150 @@
+.frame3{
+    width: 90rem;
+    height: 43.25rem;
+    flex-shrink: 0;
+    background: #000;
+}
+
+.frame3 .section1{
+    display: grid;
+    grid-template-columns: 300px 1fr 1fr;
+}
+
+.section1line{
+    display: flex;
+    width: 26.5625rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0; 
+    margin-left: -9rem;
+}
+
+.section1line p{
+    color: #FFF;
+    font-family: Red Hat Display;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.section10f2line{
+    display: flex;
+    width: 31.9375rem;
+    flex-direction: column;
+    margin-left: -6rem;
+}
+
+.section10f2line p{
+    color: #FFF;
+font-family: Red Hat Display;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 133.523%;
+}
+
+.section10f2line label{
+    display: flex;
+    width: fit-content;
+height: 2.1875rem;
+padding: 0.75rem 1.5rem 0.6875rem 1.5rem;
+justify-content: center;
+align-items: center;
+border-radius: 1.25rem;
+background: #FFF;
+margin-top: 1rem;
+}
+
+.section10f2line label p{
+    color: #000;
+font-family: Red Hat Display;
+font-size: 1rem;
+font-style: normal;
+font-weight: 600;
+line-height: 0.72963rem;
+letter-spacing: -0.02rem;
+}
+
+.servicesFrame{
+    transform: rotate(-90deg);
+    color: #FFF;
+text-align: center;
+font-family: Red Hat Display;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 500;
+line-height: 133.523%;
+margin-left: -12rem;
+}
+
+.sectional{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.section2{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 10rem;
+}
+
+
+.section2line p{
+    color: #FFF;
+font-family: Red Hat Display;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 500;
+line-height: 109.8%;
+margin-bottom: 1rem;
+}
+
+.section2line section{
+    display: flex;
+width: 34rem;
+flex-direction: column;
+}
+
+.section2line  section p{
+    color: #FFF;
+font-family: Red Hat Display;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.section2of2line{
+    margin-top: 2rem
+}
+
+.bgsection{
+    display: flex;
+width: 19.01763rem;
+height: 24.99456rem;
+padding: 0.61956rem 16.20563rem 23.89806rem 1.00613rem;
+flex-direction: column;
+align-items: center;
+flex-shrink: 0;
+border-radius: 1.35838rem;
+background-color: rgb(66, 66, 66);
+margin-left: 13rem;
+}
+
+.bgsection .bgSvg{
+    display: flex;
+    flex-direction: row;
+    gap: 0.19rem;
+   
+}
+
+.bgsection .bgImg {
+    width: 25.0625rem;
+height: 21.73444rem;
+flex-shrink: 0;
+border-radius: 1.35838rem;
+background: url("../../../Images/Frame\ 3928.png"), lightgray 50% / cover no-repeat;
+margin-top: 0.5rem;
+margin-left: 16rem;
+}

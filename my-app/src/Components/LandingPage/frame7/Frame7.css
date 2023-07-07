@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+.frame7{
+    width: 90rem;
+height: 21.5625rem;
+flex-shrink: 0;
+background: #000;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: #FFF;
+}
+
+.footer .firstFooter{
+    margin-top: 2.56rem;
+    margin-left: 5.37rem;
+}
+
+.footer .logo img{
+    width: 2.65206rem;
+height: 2.6165rem;
+}
+
+.footer .logo p{
+    position: relative;
+    font-weight: bold;
+    top: -2rem;
+    left: 3rem;
+}
+
+.firstFooter .frstFooterInfo{
+    display: flex;
+width: 20.625rem;
+flex-direction: column;
+flex-shrink: 0;
+}
+
+.frstFooterInfo p{
+    color: #FFF;
+font-family: Red Hat Display;
+font-size: 0.9375rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.135rem;
+letter-spacing: -0.01875rem;
+opacity: 0.6000000238418579;
+}
+
+.frstFooterFollow{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 1rem
+}
+
+.frstFooterFollow p{
+    color: #FFF;
+font-family: Red Hat Display;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 0.81075rem;
+letter-spacing: 0.07rem;
+text-transform: uppercase;
+}
+
+.followLinks{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.terms{
+    margin-top: 4.5rem;
+    font-family: Red Hat Display;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.05394rem;
+color: rgb(153, 105, 199);
+}
+
+.secondFooter{
+    margin-top: 4.31rem;
+    margin-left: 7rem;
+}
+
+.secondFooter h5{
+    color: #FFF;
+font-family: Red Hat Display;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: 0.81075rem;
+letter-spacing: 0.1rem;
+text-transform: uppercase;
+margin-bottom: 1.5rem;
+}
+
+.secondFooter li{
+    color: #FFF;
+font-family: Red Hat Display;
+font-size: 1rem;
+font-style: normal;
+font-weight: 100;
+line-height: 0.72963rem;
+letter-spacing: -0.02rem;
+margin-bottom: 1rem;
+}
+
+.bgBackgrey{
+    width: 2.59431rem;
+height: 2.59431rem;
+flex-shrink: 0;
+border-radius: 0.64856rem;
+background: rgba(255, 255, 255, 0.20);
+}
+
+.bgBackVoilet{
+    width: 1.94575rem;
+height: 1.94575rem;
+flex-shrink: 0;
+border-radius: 0.64856rem;
+background: var(--linear, linear-gradient(131deg, #967BDC 0%, #6C54F6 100%));
+justify-content: center;
+align-items: center;
+margin-left: 0.34rem;
+position: relative;
+top: 0.34rem;
+}
+
+.bgBackVoilet img{
+    justify-content: center;
+align-items: center;
+margin-left: 0.34rem;
+position: relative;
+top: 0.34rem;
+}
+
+.thirdFooter{
+    margin-top: 3rem;
+    margin-left: 7rem;
+}
+
+.thirdFooter h5{
+    color: #FFF;
+font-family: Red Hat Display;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 0.81075rem;
+letter-spacing: 0.07rem;
+text-transform: uppercase;
+margin-bottom: 1.5rem;
+}
+
+
+.thirdFooter li{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.Details p{
+    color: #FFF;
+    font-family: 'Nunito', sans-serif;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.135rem;
+letter-spacing: -0.015rem;
+}
+
+.linkslast{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    margin-top: 2.5rem;
+    margin-left: -6rem;
+}
+
+.linkslast p{
+    font-family: Red Hat Display;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.05394rem;
+color: rgb(153, 105, 199);
+margin-top: 1.8rem;
+
+}

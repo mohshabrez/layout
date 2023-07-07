@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+.frame5{
+    width: 90rem;
+height: 50rem;
+flex-shrink: 0;
+background: #000;
+}
+
+.frame5 .section1frameone{
+    transform: rotate(-90deg);
+    color: #FFF;
+text-align: center;
+font-family: Red Hat Display;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 500;
+line-height: 133.523%;
+position: relative;
+top: 4rem;
+left: -44rem;
+
+}
+
+.section1framelineone{
+    display: flex;
+    width: 49.4375rem;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin-left: 22rem;
+}
+
+.section1framelineone p{
+    color: #FFF;
+    text-align: center;
+    font-family: Red Hat Display;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 133.523%;
+}
+
+.colorFrame4one{
+    background-color: rgb(153, 105, 199);
+}
+
+.rectCards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 3.63rem;
+    margin-left: 5rem;
+}
+
+.rectCards .card1{
+    width: 41.0625rem;
+height: 15.37956rem;
+flex-shrink: 0;
+border-radius: 1.25rem;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url("../../../Images/Rectangle\ 5.png"), lightgray 0px -27.061px / 100% 177.996% no-repeat;
+}
+.rectCards .card2{
+    display: inline-flex;
+    height: 15.375rem;
+    padding: 9.5625rem 5.2665rem 0.97894rem 1.5rem;
+    align-items: center;
+    flex-shrink: 0;
+border-radius: 1.25rem;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url("../../../Images/rectangle6.jfif"), lightgray 0px -27.061px / 100% 177.996% no-repeat;
+margin-right: 4rem;
+}
+
+
+.rectCards .card1 .heading{
+  position: relative;
+    display: flex;
+width: 10.921rem;
+height: 4.45856rem;
+flex-direction: column;
+margin-top: 9.56rem;
+margin-left: 1.5rem;
+}
+
+.card1 .heading h6{
+    color: #FFF;
+font-family: Red Hat Display;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 500;
+line-height: 109.3%;
+}
+
+.card1 .heading p{
+    color: #FFF;
+    font-family: 'Questrial', sans-serif;
+font-size: 0.70138rem;
+font-style: normal;
+font-weight: 400;
+line-height: 144%;
+}
+
+.card1 .explore{
+    width: fit-content;
+    display: flex;
+padding: 0.5625rem 1.0625rem;
+align-items: flex-start;
+gap: 0.5rem;
+border-radius: 1.553rem;
+border: 0.802px solid #FFF;
+background: rgba(0, 0, 0, 0.50);
+position: relative;
+left: 32rem;
+top: -4rem;
+}
+
+.card1 .explore p{
+    color: #FFF;
+font-family: Red Hat Display;
+font-size: 0.80156rem;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.rectCards .card2 .heading{
+    position: relative;
+      display: flex;
+  width: 10.921rem;
+  height: 4.45856rem;
+  flex-direction: column;
+  margin-top: -0.56rem;
+  margin-left: 1.5rem;
+  }
+  
+  .card2 .heading h6{
+      color: #FFF;
+  font-family: Red Hat Display;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 109.3%;
+  }
+  
+  .card2 .heading p{
+      color: #FFF;
+      font-family: 'Questrial', sans-serif;
+  font-size: 0.70138rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 144%;
+  }
+  
+  .card2 .explore{
+      width: fit-content;
+      display: flex;
+  padding: 0.5625rem 1.0625rem;
+  align-items: flex-start;
+  gap: 0.5rem;
+  border-radius: 1.553rem;
+  border: 0.802px solid #FFF;
+  background: rgba(0, 0, 0, 0.50);
+  position: relative;
+  left: 16rem;
+  }
+  
+  .card2 .explore p{
+      color: #FFF;
+  font-family: Red Hat Display;
+  font-size: 0.80156rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  }
+
+  .values{
+    display: flex;
+    flex-direction: row;
+    margin-top: 6rem;
+    margin-left: 6rem;
+    gap: 9.63rem;
+  }
+
+  .value p{
+    font-family: Red Hat Display;
+font-size: 4rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+   color: rgb(153, 105, 199);
+  }
+
+  .value p span{
+    font-family: Red Hat Display;
+font-size: 5rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: relative;
+top: 0.3rem;
+  }
+
+.value .tagList{
+    color: #FFF;
+font-family: Red Hat Display;
+font-size: 2rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
